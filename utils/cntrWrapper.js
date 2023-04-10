@@ -5,6 +5,7 @@ const ctrlWrapper = ctrl => {
         } catch(error) {
             next(error);
         }
+        
     };
 
     return func;
